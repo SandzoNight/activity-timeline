@@ -34,7 +34,7 @@
                     extract($activityComponents);
                 @endphp
 
-
+                <span></span>
                 <div x-show="@js($index) < totalShowItemsCount" x-collapse :key="@js(rand())"
                     @class(['flex flex-col'])>
 
